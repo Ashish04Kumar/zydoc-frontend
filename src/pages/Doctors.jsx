@@ -5,7 +5,6 @@ import { useNavigate, useParams } from "react-router-dom";
 const Doctors = () => {
   const params = useParams();
   const { speciality } = useParams();
-  console.log("08987o", speciality);
   const [filterDoc, setFilterDoc] = React.useState([]);
   const [showFilter, setShowFilter] = useState(false);
   const { doctors } = useAppContext();

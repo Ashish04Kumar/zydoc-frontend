@@ -17,7 +17,7 @@ const SpecialityMenu = () => {
           return (
             <Link
               onClick={() => scrollTo(0, 0)}
-              to={`/doctor/${item.speciality}`}
+              to={`/doctors/${item.speciality}`}
               key={idx}
               className="flex flex-col items-center text-xs cursor-pointer flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500"
             >
